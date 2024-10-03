@@ -1,0 +1,22 @@
+.counter-container {
+  background-color: #556867f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.action-btn {
+  color: #fff;
+  background-color: #62df43;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px rgba(80, 80, 80, 0.3);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #032336;
+  transform: translateY(-3px);
+}
